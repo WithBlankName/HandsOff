@@ -12,3 +12,19 @@ If you confirm your use of this project, you ensure that:
 1. You comply with the AGPL and will not distribute it as a commercial product.
 2. You will not maliciously associate it with other similar commercial products.
 3. You acknowledge that this project contains a significant amount of AI-generated content and will not flood the repository with spam issues regarding this.
+
+## Dependencies
+
+### Python Standard Library
+- `sys`
+- `os`
+- `random`
+- `traceback`
+
+### Third-party Packages
+- `opencv-python` (cv2)
+- `python-vlc` (vlc)
+- `PyQt5` (QtWidgets, QtCore, QtGui, QtSvg)
+
+### Project Modules
+- `detection` (YOLOPersonThread, SilentDetectionThread)
